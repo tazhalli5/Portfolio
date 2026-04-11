@@ -14,14 +14,16 @@ header {
     text-align: center;
 }
 header h2 {
-    font-size: 3rem;       
+    font-size: 2.5rem;       
     margin-bottom: 0.5rem; 
-    letter-spacing: 1px;   
+    display: block;
+    line-height:1.2;
 }
 
 header p {
     font-size: 1.2rem;     
-    opacity: 0.9;          
+    margin-top:5px;     
+}
 
 section {
     padding: 2rem;
