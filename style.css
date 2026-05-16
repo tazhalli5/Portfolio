@@ -107,6 +107,18 @@ p, li {
 .view-link:hover {
     text-decoration: underline;
 }
+/* Center the footer/GitHub section */
+.footer-section {
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+
+.footer-section hr {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* Responsive for Mobile */
 @media (max-width: 600px) {
