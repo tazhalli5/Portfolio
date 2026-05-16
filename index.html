@@ -3,48 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tazeen halli | Developer Portfolio</title>
+    <title>Tazeen Halli | Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    
-    
 </head>
 <body>
-    <header>
-        <h4>Hello, I'm Tazeen Halli</h4>
-        <p>Full Stack Developer</p>
+
+    <header class="main-header">
+        <h1>Tazeen Halli</h1>
+        <p class="subtitle">Full Stack Developer</p>
+        
+        <nav class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
-    <section id="about">
-        <h4>About Me</h4>
-    <p>
-        I am a <strong>Full Stack Developer</strong> building scalable, high-performance web applications from the ground up. 
-        I combine strong backend logic with intuitive frontend user experiences using React, JavaScript, HTML5, CSS, Python, and SQL. 
-        My focus is always on delivering clean, maintainable code that solves real-world business problems.
-    </p>      
-    </section>
+    <main class="content-wrapper">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <hr>
+            <p>
+                Full-stack developer focused on building scalable, high-performance web applications. 
+                I bridge the gap between robust backend logic and intuitive frontend design using 
+                <strong>React, JavaScript, Python, and SQL</strong> to solve real-world business challenges.
+            </p>
+        </section>
 
-    <section id="projects">
-        <h4>My work</h4>
-        <div class="project-card">
-            <h3>SIMPLE CALCULATOR</h3>
-            <p>A functional calculator built with HTML, CSS, and JS.</p>
-            <a href="https://tazhalli5.github.io/Simple-Calculator/" target="_blank">View Project</a>
-        </div>
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <hr>
+            <ul class="skills-list">
+                <li><strong>Front-End:</strong> HTML, CSS, JavaScript, React</li>
+                <li><strong>Back-End:</strong> Python, SQL</li>
+            </ul>
+        </section>
 
-    
-    <div class=" project-card">
-    <h3>ALGORITHM VISUALIZER</h3>
-    <p>An interactive web-based sorting visualizer built with HTML, CSS, and JavaScript to demonstrate the step-by-step mechanics of complex algorithms in real time.</p>
-    <a href="https://tazhalli5.github.io/Algorithm-Visualizer-/" target="_blank">View Project</a>
-    </div>
-        <div class=" project-card">
-            <h3>INTELLIGENT FINANCIAL DASHBOARD </h3>
-            <p>A dynamic budget tracker with real-time spending insights, automated categorization, and visual limit alerts for efficient personal finance management.</p>
-            <a href="https://tazhalli5.github.io/NexTrack-Pro/" target="_blank">View Project</a>
-        </div>
-    </section>
-    <footer>
-        <p>Find me on GitHub: <a href="https://github.com/tazhalli5">@tazhalli5</a></p>
-    </footer>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <hr>
+            
+            <div class="project-item">
+                <h3>SIMPLE CALCULATOR</h3>
+                <p>A functional calculator built with HTML, CSS, and JS.</p>
+                <a href="https://tazhalli5.github.io/Simple-Calculator/" class="view-link">View Project</a>
+            </div>
+
+            <div class="project-item">
+                <h3>ALGORITHM VISUALIZER</h3>
+                <p>Visual presentation of how bubble sort works.</p>
+                <a href="https://tazhalli5.github.io/Algorithm-Visualizer-/" class="view-link">View Project</a>
+            </div>
+
+            <div class="project-item">
+                <h3>INTELLIGENT FINANCIAL DASHBOARD</h3>
+                <p>A dynamic budget tracker with real-time spending insights, automated categorization, and visual limit alerts.</p>
+                <a href="https://tazhalli5.github.io/NexTrack-Pro/" class="view-link">View Project</a>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <hr>
+            <p>Find me on GitHub: <a href="https://github.com/tazhalli5">@tazhalli5</a></p>
+        </section>
+    </main>
+
 </body>
 </html>
