@@ -11,7 +11,7 @@ body {
     color: #2D3436; /* Soft dark charcoal for better readability */
 }
 
-
+/* Elegant Light Header */
 .main-header {
     background-color: #FFFFFF; /* Pure white header */
     color: #2D3436;
@@ -68,5 +68,81 @@ body {
 
 /* Section Styling */
 .section {
-    margin-bottom:
-        
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 1.6rem;
+    color: #2D3436;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #DFE6E9; /* Very faint line */
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+p, li {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #4A4A4A;
+    margin-bottom: 15px;
+}
+
+/* Projects and Skills */
+.skills-list {
+    list-style: none; 
+    padding-left: 0;
+}
+
+.skills-list li {
+    margin-bottom: 10px;
+}
+
+.project-item {
+    margin-bottom: 40px;
+}
+
+.project-item h3 {
+    font-size: 1.2rem;
+    color: #0984E3;
+    margin-bottom: 8px;
+}
+
+.view-link {
+    color: #0984E3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.view-link:hover {
+    text-decoration: underline;
+}
+.footer-section {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 60px;
+    color: #636E72;
+}
+
+.footer-section a {
+    color: #0984E3;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 600px) {
+    .main-header h1 { font-size: 2.2rem; }
+    .content-wrapper { 
+        padding: 40px 5%; 
+        margin: 20px 10px;
+    }
+}
