@@ -13,7 +13,7 @@ body {
 
 /* Dark Header */
 .main-header {
-    background-color: #F8F9FA;
+    background-color: #FFFFFF;
     color: white;
     text-align: center;
     padding: 80px 20px 40px 20px;
@@ -52,7 +52,7 @@ body {
 
 /* Yellow/Gold Gradient Content */
 .content-wrapper {
-    background: linear-gradient(to bottom, #f7d774 0%, #e6b800 100%);
+    background: #F8F9FA
     padding: 60px 10%;
     min-height: 100vh;
 }
