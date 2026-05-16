@@ -1,78 +1,123 @@
-/* 1. FORCE THE BACKGROUND TO BE LIGHT */
-html, body {
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F8F9FA !important; /* Force light grey */
-    color: #2D3436 !important; /* Force dark text */
-    font-family: 'Segoe UI', sans-serif;
 }
 
-/* 2. FIX THE HEADER (The white box at the top) */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #F4F7F9 !important; /* Soft Light Grey Background */
+    color: #2D3436 !important;           /* Deep Charcoal Text */
+    line-height: 1.6;
+}
+
+/* 2. Elegant White Header */
 .main-header {
     background-color: #FFFFFF !important;
-    padding: 60px 20px;
+    color: #2D3436 !important;
     text-align: center;
-    border-bottom: 1px solid #E9ECEF;
+    padding: 80px 20px 40px 20px;
+    border-bottom: 1px solid #E1E8ED;
 }
 
 .main-header h1 {
-    color: #2D3436 !important; /* Makes your name visible */
-    font-size: 2.5rem;
+    font-size: 2.8rem;
+    font-weight: 700;
     margin-bottom: 10px;
 }
 
 .subtitle {
-    color: #636E72 !important; /* Makes title visible */
     font-size: 1rem;
+    color: #636E72 !important;
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin-bottom: 30px;
 }
 
-/* 3. FIX THE NAV LINKS */
+/* 3. Navigation Links */
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
 .nav-links a {
     color: #0984E3 !important;
     text-decoration: none;
-    margin: 0 15px;
     font-weight: 600;
+    font-size: 0.9rem;
 }
 
-/* 4. FIX THE MAIN CONTENT AREA */
+/* 4. Main White Container */
 .content-wrapper {
     background-color: #FFFFFF !important;
-    color: #2D3436 !important;
-    max-width: 900px;
-    margin: 30px auto;
-    padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
-/* 5. FIX SECTION HEADINGS AND LINES */
+/* 5. Typography & Sections */
+.section {
+    margin-bottom: 50px;
+}
+
 h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
     color: #2D3436 !important;
-    margin-bottom: 5px;
 }
 
 hr {
     border: none;
-    border-top: 1px solid #DFE6E9 !important;
+    border-top: 2px solid #F4F7F9 !important;
     margin-bottom: 25px;
 }
 
-/* 6. FIX PROJECT TITLES AND LINKS */
-.project-item h3 {
-    color: #2D3436 !important;
+.skills-list {
+    list-style: none;
 }
 
+.skills-list li {
+    margin-bottom: 8px;
+}
+
+.project-item {
+    margin-bottom: 35px;
+}
+
+.project-item h3 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: #0984E3 !important;
+}
+
+/* 6. Links & Footer */
 .view-link {
     color: #0984E3 !important;
-    font-weight: bold;
     text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .footer-section {
     text-align: center;
     padding: 40px;
     color: #636E72 !important;
+}
+
+.footer-section a {
+    color: #0984E3 !important;
+}
+
+/* 7. Mobile View */
+@media (max-width: 600px) {
+    .main-header h1 { font-size: 2rem; }
+    .content-wrapper { 
+        padding: 30px 20px; 
+        margin: 20px 15px;
+    }
 }
